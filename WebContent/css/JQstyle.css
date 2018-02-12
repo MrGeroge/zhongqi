@@ -1,0 +1,84 @@
+﻿
+/*---------首页焦点图------------*/
+.focus{height:130px; overflow:hidden; position: relative; width:312px; padding:50px 0 0 10px;}
+.focus ul{ position:relative;}
+.focus li{position:absolute;left:0px;top:0px;opacity:0;filter:alpha(opacity=0);}
+.focus li.shows{opacity:1;filter:alpha(opacity=1);}
+.focus p { position:absolute; top:105px;right:0;float:right; z-index:1000;}
+.focus p a { color:#63747B;}
+.num{ position:absolute;  z-index:1000; top:23px; right:-5px;}
+.num a{ display:block; background:url(../images/bread_02/done1.png) no-repeat; width:10px; height:10px; margin-right:3px; float:left}
+.num a.active{ background: url(../images/bread_02/done2.png) no-repeat;}
+
+.mal { width:1011px; height:30px;float:left; position:absolute;top:363px; left:312px;}
+
+
+/*---------首页焦点图------------*/
+
+/*拓邦首頁焦點圖切換*/
+.bread { height:374px; width: 100%; position: relative; z-index: 10; }
+.bread ul{ position:absolute; top:0; left:0; height:374px; width:100%; overflow:hidden}
+.bread ul li { float: left; height:100%; width: 100%; display: none;}
+.bread ul li a{ width:100%; height:100%;display:block }
+.box{ width:1000px; margin:0 auto; position:relative; z-index:20;}
+.box .span{ position:absolute; right:0; top:-30px; height:26px; }
+.span ul{height:26px; width:100%;background: url(../images/bread/btnbj.png) no-repeat; position:relative;}
+.span ul li {position: absolute; right:5px; top:5px;cursor: pointer; }
+.span ul li.next {width: 20px; height: 20px;}
+.span ul dl {height:15px; overflow: hidden; margin-top: 9px; margin-left: 4px; float:right}
+.span ul dl a {width:10px; height:10px;display: block;background: url(../img/span.jpg) no-repeat scroll top;_background: transparent; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bread/span.jpg', sizingMethod='noscale');float: right;margin-left: 6px;cursor: pointer; position:relative; z-index:50;}
+.span ul dl a.hover {background:url(../img/span_hover1.jpg) no-repeat;_background: transparent; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bread/span_hover1.jpg', sizingMethod='noscale');width:48px}
+
+/*---------图片翻页------------*/
+.slidebox {width:679px;padding-top:0;position: relative; background:#d4d1d1}
+.slidebox a.btn_1 {position: absolute;cursor: pointer;width:13px;height:24px;top:440px;left:10px;background:url(../img/left-btn1.png) no-repeat scroll;}
+.slidebox a.btn_2 {position: absolute;cursor: pointer;width:13px;height:24px;top:440px;right:10px;background:url(../img/right-btn1.png) no-repeat scroll;}
+.slidebox a.btn_3 {position: absolute;cursor: pointer;width: 28px;height: 55px;top: 198px;left: 20px;background: url(../img/left-btn1.jpg) no-repeat;}
+.slidebox a.btn_4 {position: absolute;cursor: pointer;width: 28px;height: 55px;top: 198px;right: 20px;background: url(../img/right-btn1.jpg) no-repeat;}
+.slidebox .cf li {float: left;position: relative;color: #fff;}
+.slidebox .cf a {display: block;width: 550px;height: 350px;position: absolute;color: #fff;}
+.slidebox .cf li span {display: block;width: 550px;position: absolute;left: 0;bottom: 0;padding: 5px;}
+.slidebox .picBox {width: 679px;height: 375px;position: relative;overflow: hidden;margin: 0 auto; border-bottom:7px solid #fff;}
+.slidebox .picBox ul {height: 375px;position: absolute;}
+.slidebox .picBox li {width: 679px;height: 446px;}
+.slidebox .listBox {width:584px;height:125px;margin:10px 0 0 40px;position: relative;overflow: hidden;}
+.slidebox .listBox ul {height:110px;position: absolute;}
+.slidebox .listBox li {width:175px;height:115px;cursor: pointer;position: relative; padding-left:8px;}
+.slidebox .listBox li img { border:2px solid #EFF4F7;}
+.slidebox .listBox .on img { border:2px solid #2C8DDC;}
+.slidebox .listBox li i {display: none;}
+.slidebox .listBox li a {display: block;width: 64px;height: 64px;}
+.slidebox .listBox li img {width:169px;height:111px;}
+.slidebox .listBox .on img {width:169px;height:111px;}
+.slidebox .listBox .on i {display: block;}
+/*---------图片翻页------------*/
+
+/*---------图片翻页2------------*/
+.tup_01 .slidebox {width:952px;padding-top:0;position: relative; float:left; background:#e5e5e5;}
+.tup_01 .slidebox a.btn_1 {position: absolute;cursor:pointer;width:100px;height:38px;top:380px;right:117px;background:url(../img/left-btn1.jpg) no-repeat scroll; left:auto}
+.tup_01 .slidebox a.btn_2 {position: absolute;cursor:pointer;width:100px;height:38px;top:380px;right:16px;background:url(../img/right-btn1.jpg) no-repeat scroll;}
+.tup_01 .slidebox a.btn_3 {position: absolute;cursor: pointer;width: 28px;height: 55px;top: 198px;left: 20px;}
+.tup_01 .slidebox a.btn_4 {position: absolute;cursor: pointer;width: 28px;height: 55px;top: 198px;right: 20px;}
+.tup_01 .slidebox .cf li {float: left;position: relative;color: #fff;}
+.tup_01 .slidebox .cf a {display: block;width: 724;height: 424px;position: absolute;color: #fff;}
+.tup_01 .slidebox .cf li span {display: block;width: 550px;position: absolute;left: 0;bottom: 0;padding: 5px;}
+.tup_01 .slidebox .picBox {width:724px;height:424px;position: relative;overflow: hidden; float:left; border:none;}
+.tup_01 .slidebox .picBox ul {height: 424px;position: absolute;}
+.tup_01 .slidebox .picBox li {width:724px;height: 424px;}
+.tup_01 .slidebox .listBox {width:219px;height:363px;position: relative;overflow: hidden; float:left; position:absolute; right:14px;top:14px; margin:0}
+.tup_01 .slidebox .listBox ul {height:363px;position: absolute;}
+.tup_01 .slidebox .listBox li {width:204px;height:121px;cursor: pointer;position: relative;padding-left:14px;}
+
+
+
+.tup_01 .slidebox .listBox li i {display: none;}
+.tup_01 .slidebox .listBox li a {display: block;width: 64px;height: 64px;}
+.tup_01 .slidebox .listBox li img {width:200px;height:117px;}
+.tup_01 .slidebox .listBox .on img {width:200px;height:117px;}
+.tup_01 .slidebox .listBox .on i {display: block;}
+
+.slidebox .picBox .cf span {float:left;width:505px;height:40px;line-height:40px;color:#fff;position:absolute;top:289px;left:0;background:#000;padding:0;
+text-indent:15px;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity: 0.8;}
+
+
+/*---------图片翻页2------------*/
